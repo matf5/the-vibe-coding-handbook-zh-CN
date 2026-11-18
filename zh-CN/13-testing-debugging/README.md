@@ -1,3 +1,5 @@
+[English 原文](../../13-testing-debugging/README.md)
+
 # 用 AI 做测试与调试
 
 ## 简介

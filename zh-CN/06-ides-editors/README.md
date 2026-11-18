@@ -1,3 +1,5 @@
+[English 原文](../../06-ides-editors/README.md)
+
 # IDE 与编辑器与氛围编程
 
 面向 AI 辅助开发优化的代码编辑器与 IDE 综合指南，涵盖带 AI 扩展的传统编辑器、原生 AI 优先 IDE 与终端编程智能体。

@@ -1,3 +1,5 @@
+**Read this in other languages:** [English](README.md) · [简体中文](README.zh-CN.md) · [More languages](TRANSLATIONS.md)
+
 # 🚀 Vibe Coding: Zero to Hero
 
 > **The Complete Open-Source Handbook for AI-Assisted Software Development**

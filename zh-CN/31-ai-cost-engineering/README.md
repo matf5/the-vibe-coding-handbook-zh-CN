@@ -1,3 +1,5 @@
+[English 原文](../../31-ai-cost-engineering/README.md)
+
 # 💰 31 - AI 成本工程
 
 > **Token 账单就是新的云账单——要像工程师一样管理它，而不是像赌徒。**

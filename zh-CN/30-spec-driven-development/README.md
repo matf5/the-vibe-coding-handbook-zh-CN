@@ -1,3 +1,5 @@
+[English 原文](../../30-spec-driven-development/README.md)
+
 # 📋 30 - 规格驱动开发
 
 > **规格，而非一次性提示词，如今已成为指挥 AI 编程智能体的主要方式。**

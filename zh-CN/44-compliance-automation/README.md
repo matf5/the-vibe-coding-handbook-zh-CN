@@ -1,3 +1,5 @@
+[English 原文](../../44-compliance-automation/README.md)
+
 # 📋 44 - 高级合规自动化
 
 > **AI 生成的代码并不能免除你的合规义务——它反而增加了举证负担。** 本节介绍如何自动化 SOC 2、GDPR、HIPAA、PCI DSS 和 EU AI Act 的证据收集，让合规跟上智能体生成代码的速度。

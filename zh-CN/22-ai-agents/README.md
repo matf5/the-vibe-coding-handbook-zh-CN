@@ -1,3 +1,5 @@
+[English 原文](../../22-ai-agents/README.md)
+
 # 用 AI 辅助构建 AI 智能体
 
 *最后更新：2026 年 11 月*

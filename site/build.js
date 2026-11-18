@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
- * Build script for The Vibe Coding Handbook website.
- * Parses README.md, ROADMAP.md, and glossary/terms.md from the repo root
- * and generates data.js with all phase/lesson/glossary data.
+ * Build script for The Vibe Coding Handbook website (Chinese edition).
+ * Parses README.zh-CN.md, zh-CN/ROADMAP.md, and zh-CN/glossary/terms.md
+ * from the repo root and generates data.js with all phase/lesson/glossary data.
  *
  * Run: node site/build.js
  * Called automatically by GitHub Actions on every push.
@@ -12,14 +12,17 @@ const fs = require('fs');
 const path = require('path');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
-const README_PATH = path.join(REPO_ROOT, 'README.md');
-const ROADMAP_PATH = path.join(REPO_ROOT, 'ROADMAP.md');
-const GLOSSARY_PATH = path.join(REPO_ROOT, 'glossary', 'terms.md');
+const README_PATH = path.join(REPO_ROOT, 'README.zh-CN.md');
+const ROADMAP_PATH = path.join(REPO_ROOT, 'zh-CN', 'ROADMAP.md');
+const GLOSSARY_PATH = path.join(REPO_ROOT, 'zh-CN', 'glossary', 'terms.md');
 const OUTPUT_PATH = path.join(__dirname, 'data.js');
 
-const GITHUB_BASE = 'https://github.com/hacrex/the-vibe-coding-handbook/tree/main/';
+const GITHUB_BASE = 'https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/';
 
 // ─── Parse ROADMAP.md for lesson statuses ────────────────────────────
+// NOTE (zh-CN): zh-CN/ROADMAP.md has no "Phase N" tables, so this returns
+// {} for the Chinese edition — that is expected, not an error. Lesson
+// statuses then come from the README table (see parseReadme) instead.
 function parseRoadmap(content) {
   const statuses = {}; // { "Phase 0": { phaseStatus, lessons: { "Dev Environment": "complete" } } }
   let currentPhase = null;
@@ -72,8 +75,12 @@ function parseReadme(content, roadmapStatuses) {
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
 
-    // === NEW FORMAT: Detect section group headers like "### 🏁 Foundations (Sections 00-06)" ===
-    const sectionGroupMatch = line.match(/^###\s+[^)]+\(Sections\s*(\d+)-(\d+)\)/);
+    // === NEW FORMAT: Detect section group headers, English and Chinese ===
+    // English: "### 🏁 Foundations (Sections 00-06)"
+    // Chinese: "### 🏁 基础（第 00-06 节）" (full-width parens, 第 .. 节)
+    const sectionGroupMatch =
+      line.match(/^###\s+[^)]+\(Sections\s*(\d+)-(\d+)\)/) ||
+      line.match(/^###\s+.*（第\s*(\d+)-(\d+)\s*节）/);
     if (sectionGroupMatch) {
       const startNum = parseInt(sectionGroupMatch[1]);
       currentSectionGroup = { start: startNum, sections: [] };
@@ -305,15 +312,18 @@ function parseGlossary(content) {
 
     if (!currentTerm) continue;
 
-    // Match "What people say" line
-    const saysMatch = line.match(/\*\*What people say:\*\*\s*"?(.+?)"?\s*$/);
+    // Match "What people say" line, English and Chinese:
+    // English: **What people say:** "..."  Chinese: **人们常说：**“...”
+    // (Chinese uses a full-width colon ： and full-width quotes “ ”.)
+    const saysMatch = line.match(/\*\*(?:What people say|人们常说)[:：]\*\*\s*["“]?(.+?)["”]?\s*$/);
     if (saysMatch) {
-      currentTerm.says = saysMatch[1].replace(/^"/, '').replace(/"$/, '').trim();
+      currentTerm.says = saysMatch[1].replace(/^["“]/, '').replace(/["”]$/, '').trim();
       continue;
     }
 
-    // Match "What it actually means" line
-    const meansMatch = line.match(/\*\*What it actually means:\*\*\s*(.+)/);
+    // Match "What it actually means" line, English and Chinese:
+    // English: **What it actually means:** ...  Chinese: **实际含义：**...
+    const meansMatch = line.match(/\*\*(?:What it actually means|实际含义)[:：]\*\*\s*(.+)/);
     if (meansMatch) {
       currentTerm.means = meansMatch[1].trim();
       continue;
@@ -372,7 +382,9 @@ var GLOSSARY = ${JSON.stringify(glossaryTerms, null, 2)};
   console.log(`\n✅ Generated ${OUTPUT_PATH}`);
 
   // Generate RSS feed
-  const SITE_URL = 'https://vibingcode.dev';
+  // NOTE: no trailing slash on SITE_URL — feed links use SITE_URL + '/...'
+  // so a trailing slash here would produce double slashes.
+  const SITE_URL = 'https://matf5.github.io/the-vibe-coding-handbook-zh-CN';
   const now = new Date().toUTCString();
   const rssItems = phases.map(p => {
     const encodedTitle = p.name.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -391,10 +403,10 @@ var GLOSSARY = ${JSON.stringify(glossaryTerms, null, 2)};
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Vibe Coding Handbook</title>
+    <title>氛围编程手册（中文版）</title>
     <link>${SITE_URL}/</link>
-    <description>The complete open-source handbook for AI-assisted software development.</description>
-    <language>en-us</language>
+    <description>AI 辅助软件开发完整开源手册（中文版）。</description>
+    <language>zh-CN</language>
     <lastBuildDate>${now}</lastBuildDate>
     <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml" />
     ${rssItems}

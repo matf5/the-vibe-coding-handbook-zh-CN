@@ -1,3 +1,5 @@
+[English 原文](../../19-freelancing/README.md)
+
 # 自由职业与客户管理与 AI
 
 ## 简介

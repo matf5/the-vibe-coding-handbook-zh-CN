@@ -1,3 +1,5 @@
+[English 原文](../../11-devops-cloud/README.md)
+
 # 用 AI 做 DevOps 与云基础设施
 
 ## 简介

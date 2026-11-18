@@ -1,3 +1,5 @@
+[English 原文](../../36-kubernetes-deployment/README.md)
+
 # ☸️ 36 - Kubernetes 部署：Vibe Coding 构建的应用
 
 > **AI 可以生成应用代码，但无法为其在生产环境中的运行负责。** Kubernetes 为你提供编排能力，让 AI 构建的服务能够可靠地部署、扩缩容和运行——前提是配置正确。

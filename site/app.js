@@ -151,7 +151,7 @@
     }
     
     if (html === '') {
-      html = '<div class="toc-empty">No phases match your search.</div>';
+      html = '<div class="toc-empty">没有与搜索匹配的章节。</div>';
     }
     
     grid.innerHTML = html;
@@ -228,7 +228,7 @@
     if (resetBtn) {
       resetBtn.addEventListener('click', function () {
         if (!window.AIFSProgress) return;
-        var ok = window.confirm('Clear all your local progress (quiz answers and completed lessons)? This cannot be undone.');
+        var ok = window.confirm('清除全部本地进度（测验答案和已完成课程）？此操作无法撤销。');
         if (!ok) return;
         window.AIFSProgress.reset();
       });
@@ -248,7 +248,7 @@
     currentPhaseIdx = idx;
     lastModalTrigger = document.activeElement;
 
-    document.getElementById('modalPhaseNum').textContent = 'PHASE ' + String(p.id).padStart(2, '0');
+    document.getElementById('modalPhaseNum').textContent = '第 ' + String(p.id).padStart(2, '0') + ' 章';
     document.getElementById('modalTitle').textContent = p.name;
     document.getElementById('modalDesc').textContent = p.desc;
 
@@ -286,7 +286,7 @@
       if (userComplete) statusClass = 'complete';
 
       html += '<div class="modal-lesson' + (userComplete ? ' user-done' : '') + '">';
-      html += '<span class="modal-lesson-status ' + statusClass + '" role="img" aria-label="' + (userComplete ? 'completed' : statusClass.replace(/-/g, ' ')) + '"' + (userComplete ? ' title="You completed this lesson"' : '') + '></span>';
+      html += '<span class="modal-lesson-status ' + statusClass + '" role="img" aria-label="' + (userComplete ? 'completed' : statusClass.replace(/-/g, ' ')) + '"' + (userComplete ? ' title="你已完成本课"' : '') + '></span>';
       if (l.url) {
         html += '<a href="' + l.url + '">' + escapeHtml(l.name) + '</a>';
       } else {
@@ -297,11 +297,11 @@
 
       var actionHtml = '';
       if ((l.status === 'complete' || userComplete) && lessonPath) {
-        actionHtml = '<a href="lesson.html?path=' + lessonPath + '" class="modal-lesson-read">' + (userComplete ? 'Review' : 'Read') + '</a>';
+        actionHtml = '<a href="lesson.html?path=' + lessonPath + '" class="modal-lesson-read">' + (userComplete ? '复习' : '阅读') + '</a>';
       }
       var toggleHtml = '';
       if (hasProgress && lessonPath) {
-        toggleHtml = '<button type="button" class="modal-lesson-toggle' + (userComplete ? ' done' : '') + '" data-path="' + lessonPath + '" title="' + (userComplete ? 'Mark as not done' : 'Mark complete') + '" aria-label="' + (userComplete ? 'Mark as not done' : 'Mark complete') + '">' + (userComplete ? '✓' : '+') + '</button>';
+        toggleHtml = '<button type="button" class="modal-lesson-toggle' + (userComplete ? ' done' : '') + '" data-path="' + lessonPath + '" title="' + (userComplete ? '标记为未完成' : '标记为完成') + '" aria-label="' + (userComplete ? '标记为未完成' : '标记为完成') + '">' + (userComplete ? '✓' : '+') + '</button>';
       }
       html += (actionHtml || '<span class="modal-lesson-read-placeholder" aria-hidden="true"></span>') + toggleHtml;
       html += '</div>';
@@ -331,7 +331,7 @@
       var pct = Math.round((userDone / p.lessons.length) * 100);
       if (progEl) {
         progEl.style.display = '';
-        progEl.innerHTML = '<span class="modal-progress-count">' + userDone + ' / ' + p.lessons.length + '</span> <span class="modal-progress-label">completed</span> <span class="modal-progress-pct">' + pct + '%</span>';
+        progEl.innerHTML = '<span class="modal-progress-count">' + userDone + ' / ' + p.lessons.length + '</span> <span class="modal-progress-label">已完成</span> <span class="modal-progress-pct">' + pct + '%</span>';
       }
       if (barEl && barFill) {
         barEl.style.display = '';
@@ -610,7 +610,7 @@
       try {
         var raw = localStorage.getItem('aifs:progress:v1');
         if (!raw) {
-          alert('No progress data to export yet. Complete some lessons first!');
+          alert('暂无可导出的进度数据。请先完成一些课程！');
           return;
         }
         var data = JSON.parse(raw);
@@ -625,10 +625,10 @@
         URL.revokeObjectURL(url);
         
         var originalText = exportBtn.innerHTML;
-        exportBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Exported!';
+        exportBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 已导出！';
         setTimeout(function () { exportBtn.innerHTML = originalText; }, 2000);
       } catch (e) {
-        alert('Failed to export progress: ' + e.message);
+        alert('导出进度失败：' + e.message);
       }
     });
     
@@ -645,10 +645,10 @@
         try {
           var data = JSON.parse(event.target.result);
           if (!data || typeof data !== 'object' || !data.lessons) {
-            throw new Error('Invalid progress file format');
+            throw new Error('进度文件格式无效');
           }
           
-          if (!confirm('This will replace your current progress. Continue?')) {
+          if (!confirm('这将替换你当前的进度。继续吗？')) {
             fileInput.value = '';
             return;
           }
@@ -663,16 +663,16 @@
           }
           
           var originalText = importBtn.innerHTML;
-          importBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Imported!';
+          importBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 已导入！';
           setTimeout(function () { importBtn.innerHTML = originalText; }, 2000);
         } catch (err) {
-          alert('Failed to import progress: ' + err.message);
+          alert('导入进度失败：' + err.message);
         } finally {
           fileInput.value = '';
         }
       };
       reader.onerror = function () {
-        alert('Failed to read file');
+        alert('读取文件失败');
         fileInput.value = '';
       };
       reader.readAsText(file);

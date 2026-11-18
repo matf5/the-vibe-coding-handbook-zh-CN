@@ -1,3 +1,5 @@
+[English 原文](../../12-hosting-platforms/README.md)
+
 # 托管平台与部署策略
 
 ## 简介

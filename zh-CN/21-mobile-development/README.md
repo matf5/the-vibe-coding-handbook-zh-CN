@@ -1,3 +1,5 @@
+[English 原文](../../21-mobile-development/README.md)
+
 # 用 AI 辅助进行移动开发
 
 AI 工具彻底改变了移动开发：它们可以生成 UI 代码、处理平台专属实现，并加速跨平台开发。

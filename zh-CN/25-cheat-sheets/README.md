@@ -1,3 +1,5 @@
+[English 原文](../../25-cheat-sheets/README.md)
+
 # 氛围编程（Vibe Coding）速查表
 
 常见任务、命令与模式的快速参考指南。

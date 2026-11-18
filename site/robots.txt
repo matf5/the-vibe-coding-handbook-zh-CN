@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vibingcode.dev/sitemap.xml
+Sitemap: https://matf5.github.io/the-vibe-coding-handbook-zh-CN/sitemap.xml

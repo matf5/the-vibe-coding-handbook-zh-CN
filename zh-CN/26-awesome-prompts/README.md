@@ -1,3 +1,5 @@
+[English 原文](../../26-awesome-prompts/README.md)
+
 # Vibe Coding 精选提示词合集
 
 一份可复用、久经考验的提示词合集，面向 AI 辅助软件开发。

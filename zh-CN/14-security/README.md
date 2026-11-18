@@ -1,3 +1,5 @@
+[English 原文](../../14-security/README.md)
+
 # AI 辅助开发中的安全
 
 *最后更新：2026 年 11 月*

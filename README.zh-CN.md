@@ -1,3 +1,5 @@
+**其他语言版本：** [English](README.md) · [简体中文](README.zh-CN.md) · [更多语言](TRANSLATIONS.md)
+
 # 🚀 氛围编程（Vibe Coding）：从零到精通
 
 > **AI 辅助软件开发完整开源手册**

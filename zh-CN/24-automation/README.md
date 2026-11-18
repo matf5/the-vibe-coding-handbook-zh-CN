@@ -1,3 +1,5 @@
+[English 原文](../../24-automation/README.md)
+
 # 用 AI 实现自动化
 
 使用 AI 智能体与工具，自动化重复任务、工作流与流程。

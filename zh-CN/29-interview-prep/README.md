@@ -1,3 +1,5 @@
+[English 原文](../../29-interview-prep/README.md)
+
 # 用 AI 进行面试准备
 
 ## 编程面试

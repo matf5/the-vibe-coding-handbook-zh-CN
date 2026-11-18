@@ -1,3 +1,5 @@
+[English 原文](../../16-open-source-projects/README.md)
+
 # 开源项目与 AI 协作
 
 ## 简介

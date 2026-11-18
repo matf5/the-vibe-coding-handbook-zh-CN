@@ -1,3 +1,5 @@
+[English 原文](../../08-frontend/README.md)
+
 # 用 AI 做前端开发
 
 ## 简介

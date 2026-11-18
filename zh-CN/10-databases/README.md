@@ -1,3 +1,5 @@
+[English 原文](../../10-databases/README.md)
+
 # 用 AI 做数据库与数据管理
 
 ## 简介

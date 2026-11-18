@@ -1,3 +1,5 @@
+[English 原文](../../28-failure-patterns/README.md)
+
 # 失败模式：AI 辅助开发中出了什么问题
 
 ## 代码质量问题

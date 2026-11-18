@@ -1,3 +1,5 @@
+[English 原文](../../18-monetization/README.md)
+
 # AI 开发者的变现策略
 
 ## 简介

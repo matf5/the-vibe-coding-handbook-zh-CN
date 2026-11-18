@@ -1,3 +1,5 @@
+[English 原文](../../15-offline-vibe-coding/README.md)
+
 # 🤖 15 - 离线氛围编程（Vibe Coding）
 
 > **在本地运行 AI 模型，实现私密、离线的开发，无需依赖云端。**  

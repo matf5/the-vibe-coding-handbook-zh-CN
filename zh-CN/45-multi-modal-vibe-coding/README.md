@@ -1,3 +1,5 @@
+[English 原文](../../45-multi-modal-vibe-coding/README.md)
+
 # 🎨 45 - 多模态氛围编程
 
 > **代码并不总是从文字开始。** 多模态氛围编程（Vibe Coding）让你用图片、模型稿、截图和 Figma 文件进行设计，然后让 AI 直接把它们转换成可运行的代码。

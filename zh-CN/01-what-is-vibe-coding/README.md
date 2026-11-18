@@ -1,3 +1,5 @@
+[English 原文](../../01-what-is-vibe-coding/README.md)
+
 # 🧠 01 - 什么是氛围编程？
 
 *最后更新：2026 年 11 月*

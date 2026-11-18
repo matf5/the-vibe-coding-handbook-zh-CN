@@ -61,3 +61,14 @@ Upstream (`hacrex/the-vibe-coding-handbook`) updates in English. To sync:
 fetch upstream, diff the English files, re-translate only the changed
 paragraphs in each locale, keep structure and counts in sync, then update
 the upstream commit recorded in `TRANSLATION.md` and re-run verification.
+
+## Fork-only changes / Fork 专属改动
+
+The language-switcher lines at the top of `README.md` (`Read this in
+other languages: …`), `README.zh-CN.md` (`其他语言版本：…`) and the
+`[English 原文](…)` link at the top of every `zh-CN/<section>/README.md`
+are fork-only additions — upstream has none of them. They are plain link
+lines, not headings/tables/lists/code, so they do not affect the 1:1
+structure counts. After an upstream sync overwrites `README.md`, re-add
+the switcher line; do not treat its absence as an upstream change and do
+not drop it.

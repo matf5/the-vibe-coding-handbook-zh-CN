@@ -1,378 +1,378 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Vibe Coding Handbook</title>
-    <link>https://vibingcode.dev/</link>
-    <description>The complete open-source handbook for AI-assisted software development.</description>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2026 06:19:46 GMT</lastBuildDate>
-    <atom:link href="https://vibingcode.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <title>氛围编程手册（中文版）</title>
+    <link>https://matf5.github.io/the-vibe-coding-handbook-zh-CN/</link>
+    <description>AI 辅助软件开发完整开源手册（中文版）。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 18 Nov 2026 07:56:39 GMT</lastBuildDate>
+    <atom:link href="https://matf5.github.io/the-vibe-coding-handbook-zh-CN/feed.xml" rel="self" type="application/rss+xml" />
       <item>
     <title>Introduction</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/00-introduction/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/00-introduction/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Welcome &amp; Overview</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/00-introduction/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/00-introduction/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>欢迎与总览</description>
     <category>unknown</category>
   </item>
   <item>
     <title>What Is Vibe Coding</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/01-what-is-vibe-coding/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/01-what-is-vibe-coding/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Philosophy &amp; Mindset</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/01-what-is-vibe-coding/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/01-what-is-vibe-coding/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>理念与心态</description>
     <category>unknown</category>
   </item>
   <item>
     <title>How To Start</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/02-how-to-start/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/02-how-to-start/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Getting Started Guide</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/02-how-to-start/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/02-how-to-start/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>入门指南</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Hardware Guide</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/03-hardware-guide/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/03-hardware-guide/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Setup Requirements</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/03-hardware-guide/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/03-hardware-guide/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>配置要求</description>
     <category>unknown</category>
   </item>
   <item>
     <title>AI Models</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/04-ai-models/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/04-ai-models/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Model Comparison</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/04-ai-models/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/04-ai-models/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>模型对比</description>
     <category>unknown</category>
   </item>
   <item>
     <title>AI Tools</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/05-ai-tools/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/05-ai-tools/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Tool Ecosystem</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/05-ai-tools/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/05-ai-tools/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>工具生态</description>
     <category>unknown</category>
   </item>
   <item>
     <title>IDEs Editors</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/06-ides-editors/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/06-ides-editors/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>AI-Native IDEs</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/06-ides-editors/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/06-ides-editors/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>AI 原生 IDE</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Prompt Engineering</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/07-prompt-engineering/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/07-prompt-engineering/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Prompt Templates &amp; Techniques</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/07-prompt-engineering/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/07-prompt-engineering/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>提示词模板与技巧</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Frontend</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/08-frontend/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/08-frontend/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>React, Next.js, TypeScript</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/08-frontend/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/08-frontend/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>React、Next.js、TypeScript</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Backend</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/09-backend/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/09-backend/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>APIs, Microservices</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/09-backend/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/09-backend/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>API、微服务</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Databases</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/10-databases/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/10-databases/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>SQL, NoSQL, Vector DBs</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/10-databases/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/10-databases/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>SQL、NoSQL、向量数据库</description>
     <category>unknown</category>
   </item>
   <item>
     <title>DevOps Cloud</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/11-devops-cloud/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/11-devops-cloud/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Docker, K8s, Cloud</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/11-devops-cloud/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/11-devops-cloud/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>Docker、K8s、云</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Hosting Platforms</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/12-hosting-platforms/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/12-hosting-platforms/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Deployment Options</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/12-hosting-platforms/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/12-hosting-platforms/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>部署选项</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Testing Debugging</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/13-testing-debugging/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/13-testing-debugging/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Quality Assurance</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/13-testing-debugging/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/13-testing-debugging/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>质量保证</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Security</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/14-security/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/14-security/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Security Best Practices</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/14-security/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/14-security/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>安全最佳实践</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Offline Vibe Coding</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/15-offline-vibe-coding/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/15-offline-vibe-coding/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Local AI &amp; Privacy</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/15-offline-vibe-coding/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/15-offline-vibe-coding/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>本地 AI 与隐私</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Open Source Projects</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/16-open-source-projects/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/16-open-source-projects/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Project Ideas</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/16-open-source-projects/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/16-open-source-projects/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>项目创意</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Real World Workflows</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/17-real-world-workflows/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/17-real-world-workflows/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Production Workflows</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/17-real-world-workflows/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/17-real-world-workflows/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>生产工作流</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Monetization</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/18-monetization/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/18-monetization/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Making Money</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/18-monetization/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/18-monetization/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>变现</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Freelancing</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/19-freelancing/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/19-freelancing/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Client Work</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/19-freelancing/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/19-freelancing/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>客户工作</description>
     <category>unknown</category>
   </item>
   <item>
     <title>System Design</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/20-system-design/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/20-system-design/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Architecture Patterns</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/20-system-design/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/20-system-design/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>架构模式</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Mobile Development</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/21-mobile-development/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/21-mobile-development/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>React Native, Flutter</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/21-mobile-development/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/21-mobile-development/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>React Native、Flutter</description>
     <category>unknown</category>
   </item>
   <item>
     <title>AI Agents</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/22-ai-agents/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/22-ai-agents/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Autonomous Agents</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/22-ai-agents/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/22-ai-agents/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>自主智能体</description>
     <category>unknown</category>
   </item>
   <item>
     <title>RAG Vector Databases</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/23-rag-vector-databases/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/23-rag-vector-databases/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>RAG Systems</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/23-rag-vector-databases/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/23-rag-vector-databases/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>RAG 系统</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Automation</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/24-automation/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/24-automation/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>CI/CD, Scripts</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/24-automation/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/24-automation/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>CI/CD、脚本</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Cheat Sheets</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/25-cheat-sheets/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/25-cheat-sheets/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Quick References</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/25-cheat-sheets/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/25-cheat-sheets/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>速查表</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Awesome Prompts</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/26-awesome-prompts/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/26-awesome-prompts/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Prompt Library</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/26-awesome-prompts/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/26-awesome-prompts/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>提示词库</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Case Studies</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/27-case-studies/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/27-case-studies/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Real-World Analysis</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/27-case-studies/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/27-case-studies/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>真实案例分析</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Failure Patterns</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/28-failure-patterns/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/28-failure-patterns/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>What NOT to Do</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/28-failure-patterns/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/28-failure-patterns/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>应该避免的做法</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Interview Prep</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/29-interview-prep/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/29-interview-prep/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Interview Questions</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/29-interview-prep/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/29-interview-prep/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>面试问题</description>
     <category>unknown</category>
   </item>
   <item>
     <title>Spec Driven Development</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/30-spec-driven-development/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/30-spec-driven-development/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Specs &gt; Prompts</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/30-spec-driven-development/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/30-spec-driven-development/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>规格重于提示词</description>
     <category>intermediate</category>
   </item>
   <item>
     <title>AI Cost Engineering</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/31-ai-cost-engineering/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/31-ai-cost-engineering/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Token Costs &amp; Budgets</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/31-ai-cost-engineering/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/31-ai-cost-engineering/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>Token 成本与预算</description>
     <category>intermediate</category>
   </item>
   <item>
     <title>Agent Safety Governance</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/32-agent-safety-governance/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/32-agent-safety-governance/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Agent Safety &amp; Governance</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/32-agent-safety-governance/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/32-agent-safety-governance/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>智能体安全与治理</description>
     <category>intermediate</category>
   </item>
   <item>
     <title>Enterprise Governance</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/33-enterprise-governance/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/33-enterprise-governance/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Enterprise Governance &amp; Reliability</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/33-enterprise-governance/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/33-enterprise-governance/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>企业治理与可靠性</description>
     <category>intermediate</category>
   </item>
   <item>
     <title>Community Case Studies</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/34-community-case-studies/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/34-community-case-studies/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Case Studies &amp; Failure Analyses</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/34-community-case-studies/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/34-community-case-studies/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>案例研究与失败分析</description>
     <category>intermediate</category>
   </item>
   <item>
     <title>Starter Kits</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/35-starter-kits/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/35-starter-kits/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Starter Kits &amp; Boilerplates</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/35-starter-kits/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/35-starter-kits/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>入门套件与模板</description>
     <category>intermediate</category>
   </item>
   <item>
     <title>Kubernetes Deployment</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/36-kubernetes-deployment/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/36-kubernetes-deployment/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Kubernetes Deployment</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/36-kubernetes-deployment/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/36-kubernetes-deployment/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>Kubernetes 部署</description>
     <category>advanced</category>
   </item>
   <item>
     <title>Self Assessment</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/37-self-assessment/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/37-self-assessment/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Self-Assessment &amp; Certification</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/37-self-assessment/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/37-self-assessment/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>自我评估与认证</description>
     <category>intermediate</category>
   </item>
   <item>
     <title>Interactive Quizzes</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/38-interactive-quizzes/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/38-interactive-quizzes/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Quizzes &amp; Certification Track</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/38-interactive-quizzes/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/38-interactive-quizzes/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>测验与认证路径</description>
     <category>intermediate</category>
   </item>
   <item>
     <title>Video Tutorials</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/39-video-tutorials/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/39-video-tutorials/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Video Tutorials &amp; Walkthroughs</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/39-video-tutorials/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/39-video-tutorials/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>视频教程与演示</description>
     <category>beginner</category>
   </item>
   <item>
     <title>Community Discussion</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/40-community-discussion/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/40-community-discussion/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Community &amp; Contribution Tooling</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/40-community-discussion/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/40-community-discussion/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>社区与贡献工具</description>
     <category>beginner</category>
   </item>
   <item>
     <title>Ecosystem Integrations</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/41-ecosystem-integrations/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/41-ecosystem-integrations/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>MCP Marketplace &amp; Agent Templates</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/41-ecosystem-integrations/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/41-ecosystem-integrations/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>MCP 市场与智能体模板</description>
     <category>intermediate</category>
   </item>
   <item>
     <title>Aiops AI Workloads</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/42-aiops-ai-workloads/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/42-aiops-ai-workloads/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>AIOps for AI Workloads</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/42-aiops-ai-workloads/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/42-aiops-ai-workloads/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>面向 AI 工作负载的 AIOps</description>
     <category>advanced</category>
   </item>
   <item>
     <title>Agent Collaboration</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/43-agent-collaboration/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/43-agent-collaboration/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Agent-to-Agent Collaboration</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/43-agent-collaboration/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/43-agent-collaboration/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>智能体间协作</description>
     <category>advanced</category>
   </item>
   <item>
     <title>Compliance Automation</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/44-compliance-automation/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/44-compliance-automation/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Advanced Compliance Automation</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/44-compliance-automation/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/44-compliance-automation/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>高级合规自动化</description>
     <category>advanced</category>
   </item>
   <item>
     <title>Multi Modal Vibe Coding</title>
-    <link>https://github.com/hacrex/the-vibe-coding-handbook/tree/main/45-multi-modal-vibe-coding/</link>
-    <guid isPermaLink="true">https://github.com/hacrex/the-vibe-coding-handbook/tree/main/45-multi-modal-vibe-coding/</guid>
-    <pubDate>Mon, 09 Nov 2026 06:19:46 GMT</pubDate>
-    <description>Multi-Modal Vibe Coding</description>
+    <link>https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/45-multi-modal-vibe-coding/</link>
+    <guid isPermaLink="true">https://github.com/matf5/the-vibe-coding-handbook-zh-CN/tree/main/zh-CN/45-multi-modal-vibe-coding/</guid>
+    <pubDate>Wed, 18 Nov 2026 07:56:39 GMT</pubDate>
+    <description>多模态氛围编程</description>
     <category>intermediate</category>
   </item>
   </channel>

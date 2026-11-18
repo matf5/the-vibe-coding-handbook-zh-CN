@@ -1,3 +1,5 @@
+[English 原文](../../27-case-studies/README.md)
+
 # 案例研究：真实世界的氛围编程成功故事
 
 ## 创业故事

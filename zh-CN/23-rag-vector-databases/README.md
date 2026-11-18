@@ -1,3 +1,5 @@
+[English 原文](../../23-rag-vector-databases/README.md)
+
 # RAG 与向量数据库与 AI
 
 检索增强生成（RAG）将 LLM 与外部知识库结合起来，以提供准确、最新的回答。

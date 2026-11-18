@@ -1,3 +1,5 @@
+[English 原文](../../00-introduction/README.md)
+
 # 🚀 00 - 氛围编程（Vibe Coding）简介
 
 > **欢迎来到 AI 辅助软件开发终极指南！**  
