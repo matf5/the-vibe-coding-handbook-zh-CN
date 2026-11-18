@@ -1917,8 +1917,12 @@
       }
 
       function fetchLesson(path) {
-        var rawUrl = 'https://raw.githubusercontent.com/matf5/the-vibe-coding-handbook-zh-CN/main/zh-CN/' + path + '/README.md';
-        var quizUrl = 'https://raw.githubusercontent.com/matf5/the-vibe-coding-handbook-zh-CN/main/zh-CN/' + path + '/quiz.json';
+        // path 来自 data.js 的 lesson url，已是 zh-CN/07-prompt-engineering 这种
+        // 完整路径；直接再拼 zh-CN/ 会变成 zh-CN/zh-CN/... 导致 404。
+        // 这里先去掉已有的 zh-CN/ 前缀（兼容旧的裸节名），再统一拼一次。
+        var cleanPath = String(path || '').replace(/^zh-CN\//, '').replace(/\/$/, '');
+        var rawUrl = 'https://raw.githubusercontent.com/matf5/the-vibe-coding-handbook-zh-CN/main/zh-CN/' + cleanPath + '/README.md';
+        var quizUrl = 'https://raw.githubusercontent.com/matf5/the-vibe-coding-handbook-zh-CN/main/zh-CN/' + cleanPath + '/quiz.json';
         var mdCacheKey = LESSON_CACHE_PREFIX + path + ':md';
         var quizCacheKey = LESSON_CACHE_PREFIX + path + ':quiz';
 
